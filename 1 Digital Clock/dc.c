@@ -6,7 +6,7 @@
 int main(){
   
     int hour,minute,second;
-    hour = minute=second=0;
+    hour = minute=second=0; 
     while(1){
       system("cls");
       printf("%02d : %02d : %2d",hour,minute,second);
@@ -28,7 +28,7 @@ int main(){
         minute=0;
         second=0;
       }
-      sleep(1);
+    int   sleep(1);
     }
     return 0;
 
